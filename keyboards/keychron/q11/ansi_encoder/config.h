@@ -17,7 +17,7 @@
 #pragma once
 
 #define TAPPING_TERM 125
-#define PERMISSIVE_HOLD
+#define HOLD_ON_OTHER_KEY_PRESS
 
 /* RGB Matrix Configuration */
 #define RGB_MATRIX_LED_COUNT 89
