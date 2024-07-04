@@ -1,4 +1,4 @@
-/* 
+/*
 Copyright 2024 NEO
 
 This program is free software: you can redistribute it and/or modify
@@ -17,13 +17,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#    define RGBLIGHT_LAYERS                   
-#    define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF 
-#    define RGBLIGHT_LAYERS_RETAIN_VAL      
-#    define RGBLIGHT_DEFAULT_VAL 255
-#    define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL + 5
-#    define RGBLIGHT_SLEEP
-/*== customize breathing effect ==*/
-// #    define RGBLIGHT_BREATHE_TABLE_SIZE 150
-// #    define RGBLIGHT_EFFECT_BREATHE_CENTER 1.0
-// #    define RGBLIGHT_EFFECT_BREATHE_MAX    60
+#define TAPPING_TERM 125
+#define HOLD_ON_OTHER_KEY_PRESS
+#define RGBLIGHT_LAYERS
+#define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
+#define RGBLIGHT_LAYERS_RETAIN_VAL
+#define RGBLIGHT_DEFAULT_VAL 255
+#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL + 5
+#define RGBLIGHT_SLEEP
